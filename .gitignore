@@ -1,0 +1,27 @@
+# Build and release artifacts
+/remove-shit
+/dist/
+/bin/
+*.test
+*.out
+*.prof
+/coverage/
+
+# Local text exports
+/cleaned.txt
+*.clean.txt
+/outputs/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editor and macOS files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
